@@ -5,7 +5,9 @@ document_outline: |
   When it comes to OpenShift vs Kubernetes, there are key differences.  This document serves to outline a few differences.
 seed_examples:
   - context: |
-      OpenShift is a platform as a service (PaaS) that is built on top of Kubernetes. It provides additional features and tools for developers to build, deploy, and manage applications in a cloud environment.
+      Kubernetes is an open source container orchestration platform that enables organizations to automatically scale, manage, and deploy containerized applications in distributed environments. According to the Kubernetes in the Wild 2023 report, “Kubernetes is emerging as the operating system of the cloud.” In recent years, cloud service providers such as Amazon Web Services, Microsoft Azure, IBM, and Google began offering Kubernetes as part of their managed services. As a result of these services, organizations can further streamline the administrative overhead associated with application development. Kubernetes containers are portable across environments, which enables developers to run them on nearly any type of infrastructure, whether in the cloud or locally. This flexibility helps organizations avoid vendor lock-in. Kubernetes also gives developers freedom of choice when selecting operating systems, container runtimes, storage engines, and other key elements for their Kubernetes environments. They can integrate their own applications in the Kubernetes API or use Kubernetes’ own tooling to roll out new features. One major Kubernetes advantage is its self-healing, continually making repairs and addressing failures that affect applications’ integrity. That said, Kubernetes has some drawbacks. Its inherent complexity makes observability difficult — especially when used across highly distributed systems. IT teams can’t see into the internal state of Kubernetes containers, so they often collect a wide variety of telemetry data — such as logs, metrics, and distributed traces — to compensate for this lack of visibility. While these data sources are helpful, they often can’t help IT understand the relationships and context necessary to quickly identify the root causes of application performance issues. As a result, organizations can have trouble transforming at scale, improving critical service-level agreements, and optimizing the user experience.
+  - context: |
+      Like Kubernetes, OpenShift is an open source Kubernetes-based container platform. OpenShift is developed by Red Hat and can run in a variety of environments — both cloud and on premises. In fact, it is a frequent choice for running Kubernetes on premises. Because it’s based on Kubernetes, OpenShift provides containerization and orchestration of containerized workloads. Like Kubernetes, it allocates resources efficiently and ensures high availability and fault tolerance. But OpenShift builds from there to provide integrated development tools, CI/CD (continuous integration/continuous deployment) pipelines, and built-in support for popular programming languages, frameworks, and databases. These tools enable OpenShift to support the entire application lifecycle, from development to production, including scaling, rolling updates, and version control. Without having to worry about underlying infrastructure concerns, such as storage, security, and lifecycle management, developers can focus on writing code. Likewise, Red Hat OpenShift helps organizations administer Kubernetes more efficiently. For example, OpenShift simplifies Kubernetes management tools, giving developers everything they need to manage Kubernetes nodes, as well as the underlying control plane. Despite its advantages, however, OpenShift also has its limitations. While Kubernetes supports all cloud and Linux distributions, making it widely accessible to organizations using various platforms, OpenShift supports only Red Hat distributions, such as Red Hat Enterprise Linux (RHEL), CentOS, and Fedora. As a commercial solution, OpenShift is also comparatively less flexible than open source Kubernetes, making it less customizable to an organization’s unique requirements.
   - context: |
       Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
   - context: |
@@ -19,7 +21,19 @@ questions_and_answers:
       What is Kubernetes?
     answer: | 
       Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.
+  - question: |
+      What are the advantages of using Kubernetes?
+    answer: | 
+      Kubernetes provides self-healing capabilities, portability across environments, and flexibility in choosing components.
   - question: | 
       What is OpenShift?
     answer: |
-      OpenShift is a PaaS built on top of Kubernetes that provides additional features and tools for developers.
+      OpenShift is a Kubernetes-based container platform developed by Red Hat that provides integrated development tools and CI/CD pipelines.
+  - question: |
+      What are the advantages of using OpenShift?
+    answer: |
+      OpenShift simplifies Kubernetes management, provides integrated development tools, and supports the entire application lifecycle.
+  - question: |
+      What are the limitations of OpenShift?
+    answer: |
+      OpenShift supports only Red Hat distributions and is less flexible than open-source Kubernetes.
