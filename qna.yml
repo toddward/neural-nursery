@@ -47,3 +47,8 @@ questions_and_answers:
       Which platform works with a greater variety of operating systems and platforms?
     answer: |
       Kubernetes works on the widest possible range of operating systems and platforms, while OpenShift supports only Red Hat distributions.
+document:
+  repo: 'https://github.com/toddward/neural-nursery.git'
+  commit: 'ef811e91bfe7ac65fc03757085fb46260d68afe8'
+  patterns:
+  - 'openshiftvkubernetesv2.md'
