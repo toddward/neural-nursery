@@ -89,37 +89,3 @@ Whether you choose OpenShift vs. Kubernetes or vice versa, Dynatrace can make th
 Additionally, Dynatrace offers powerful monitoring capabilities for OpenShift, helping you manage costs, automate your operations, and release better software faster.
 
 Whether using OpenShift or Kubernetes, the Dynatrace observability and security platform is the only Kubernetes monitoring system with continuous automation that identifies and prioritizes alerts from applications and infrastructure without changing code, container images, or deployments.
-
-#### Share blog post
-
-#### Stay Updated
-
-Enter your email
-
-- All updates
-- Blog posts
-- Product news
-
-,                       ,                       ,                       ,                       ,                       ,
-
-<!-- 🖼️❌ Image not available. Please use `PdfPipelineOptions(generate_picture_images=True)` -->
-
-The Author
-
-Peter Putz is a principal product marketer with a passion for technology. Before joining Dynatrace in 2016 he was a senior scientist with NASA's Intelligent Systems Division and a research staff member at the Xerox Palo Alto Research Center (PARC).
-
-Disclaimer: The views expressed on this blog are my own and do not reflect the views of Dynatrace LLC or its affiliates.
-
-<!-- 🖼️❌ Image not available. Please use `PdfPipelineOptions(generate_picture_images=True)` -->
-
-### Dynatrace observability now available for Red Hat OpenShift on IBM Z and LinuxONE mainframes
-
-<!-- 🖼️❌ Image not available. Please use `PdfPipelineOptions(generate_picture_images=True)` -->
-
-### Dynatrace® Apps showcase: Akamas Kubernetes optimization
-
-<!-- 🖼️❌ Image not available. Please use `PdfPipelineOptions(generate_picture_images=True)` -->
-
-Perform 2025
-
-Experience boundary-breaking mainstage sessions, announcements, and breakout sessions.
