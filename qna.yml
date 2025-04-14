@@ -2,4 +2,24 @@ version: 1.0
 created_by: sadia_and_todd
 domain: neural_nursery
 document_outline: |
-    When it comes to OpenShift vs Kubernetes, there are key differences.  This document serves to outline a few differences.
+  When it comes to OpenShift vs Kubernetes, there are key differences.  This document serves to outline a few differences.
+seed_examples:
+  - context: |
+      OpenShift is a platform as a service (PaaS) that is built on top of Kubernetes. It provides additional features and tools for developers to build, deploy, and manage applications in a cloud environment.
+  - context: |
+      Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications.
+  - context: |
+      OpenShift provides a web console and command-line interface (CLI) for managing applications, while Kubernetes has a CLI and API for managing resources.
+questions_and_answers:
+  - question: | 
+      How do OpenShift and Kubernetes differ in terms of management interfaces?
+    answer: | 
+      OpenShift provides a web console and CLI, while Kubernetes has a CLI and API.
+  - question: | 
+      What is Kubernetes?
+    answer: | 
+      Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.
+  - question: | 
+      What is OpenShift?
+    answer: |
+      OpenShift is a PaaS built on top of Kubernetes that provides additional features and tools for developers.
